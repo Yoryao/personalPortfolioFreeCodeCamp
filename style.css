@@ -1,0 +1,6 @@
+#navbar {
+    height: 15px;
+    background-color:burlywood;
+    display: flex;
+    align-items: flex-end;
+}
