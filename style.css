@@ -1,6 +1,58 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #navbar {
-    height: 15px;
-    background-color:burlywood;
+   /* position: fixed;*/
+   width: 100%;
+   background-color:orange;
+   line-height: 50px;
+}
+
+.navbar-link {
+    /*display: flex;*/
+    justify-items:  flex-end;
+    justify-content: flex-end;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#welcome-section {
     display: flex;
-    align-items: flex-end;
+    background-color: cadetblue;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 5rem;
+}
+
+
+
+#projects {
+    display: flex;
+    background-color: lightgreen;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact {
+    display: flex;
+    
+    background-color: rgb(182, 182, 182);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color:orchid;
+    height: 50px;
 }
