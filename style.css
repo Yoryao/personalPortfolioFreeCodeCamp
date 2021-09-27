@@ -96,3 +96,14 @@ body {
     background-color:orchid;
     height: 50px;
 }
+
+@media (max-width: 1000px) {
+
+    body {
+        background-color: rosybrown;
+    }
+
+
+
+    
+}
